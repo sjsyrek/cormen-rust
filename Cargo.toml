@@ -1,0 +1,19 @@
+[package]
+description = "This project contains Rust implementations of some of the algorithms from Introduction to Algorithms by Thomas Cormen, et al."
+repository = "https://github.com/sjsyrek/Cormen_Rust"
+name = "cormen_rust"
+version = "0.1.0"
+authors = ["Steven Syrek <steven.syrek@gmail.com>"]
+readme = "README.md"
+license-file = "LICENSE.txt"
+keywords = ["algorithm"]
+
+[dependencies]
+
+[lib]
+name = "cormen_rust"
+path = "src/lib.rs"
+test = true
+doctest = true
+bench = true
+doc = true
