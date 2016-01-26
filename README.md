@@ -5,3 +5,11 @@ This project contains Rust implementations of some of the algorithms from [_Intr
 I am working on these in order to learn the [Rust](https://www.rust-lang.org/index.html) programming language. I have found that they mostly work verbatim but do require an understanding of the type system and of the concepts of [ownership](http://doc.rust-lang.org/1.6.0/book/ownership.html) and [borrowing](http://doc.rust-lang.org/1.6.0/book/references-and-borrowing.html). They may therefore be useful for other Rust novices familiar with Cormen's book.
 
 I will do my best to document these functions in accordance with `rustdoc` conventions. Enjoy.
+
+## Installation
+
+- Make sure you have [Cargo](http://doc.crates.io/index.html), the Rust package manager, installed on your machine.
+- Clone repository locally.
+- In your project directory, run `cargo build` or `cargo build --release` to enable optimizations.
+- Run `cargo test` to run the comment-embedded test code and compile examples into executables.
+- Run `cargo doc` to generate HTML documentation
