@@ -1,4 +1,5 @@
 extern crate cormen_rust;
+
 use cormen_rust::*;
 
 fn main() {

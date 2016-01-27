@@ -2,7 +2,7 @@
 description = "This project contains Rust implementations of some of the algorithms from Introduction to Algorithms by Thomas Cormen, et al."
 repository = "https://github.com/sjsyrek/Cormen_Rust"
 name = "cormen_rust"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Steven Syrek <steven.syrek@gmail.com>"]
 readme = "README.md"
 license-file = "LICENSE.txt"
